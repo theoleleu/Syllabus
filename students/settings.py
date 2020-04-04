@@ -38,7 +38,7 @@ SECRET_KEY = 'r1!9afv%d2j1lxuoq8@5(i_t+)!7!iq^kaj3eifdq9(!vo3ewn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['test0000000000000000000000000.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['syllabusmines.herokuapp.com','test0000000000000000000000000.herokuapp.com','127.0.0.1']
 
 
 # Application definition
