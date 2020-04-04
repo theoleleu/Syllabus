@@ -6,7 +6,7 @@ Automat==20.2.0
 certifi==2019.11.28
 cffi==1.14.0
 chardet==3.0.4
-conda==4.8.2
+conda==4.3.16
 conda-package-handling==1.6.0
 constantly==15.1.0
 cryptography==2.8
