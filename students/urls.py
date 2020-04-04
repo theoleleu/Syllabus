@@ -18,10 +18,11 @@ from django.urls import path
 from django.conf.urls import url, include
 from rest_framework import routers
 from etudes.views import EtudesViewSet
+from emploidutemps.views import EmploidutempsViewSet
 
 router = routers.DefaultRouter()
 router.register('api/etudes', EtudesViewSet)
-
+router.register('api/emploidutemps', EmploidutempsViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     url('', include(router.urls))
